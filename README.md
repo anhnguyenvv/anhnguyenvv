@@ -52,9 +52,9 @@
 | :--- | :--- |
 | **Modular NLP platform with Piper TTS engine.**<br/>*PyTorch, PhoBERT, Piper TTS, Flask, React* | **GPU-accelerated Neural Network.**<br/>*CUDA C/C++, GPU Kernels, Machine Learning* |
 
-| ♟️ [Chess Game OOP](https://github.com/anhnguyenvv/ChessGame) | |
+| ♟️ [Chess Game OOP](https://github.com/anhnguyenvv/ChessGame) | 🖼️ [Picture Manager](https://github.com/anhnguyenvv/Picturemanager) |
 | :--- | :--- |
-| **Desktop interactive chess game with local multiplayer.**<br/>*C++, GUI, OOP Design, Game Logic* | |
+| **Desktop interactive chess game with local multiplayer.**<br/>*C++, GUI, OOP Design, Game Logic* | **Desktop application for image management.**<br/>*Java, OOP, GUI* |
 
 ---
 

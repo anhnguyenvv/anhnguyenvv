@@ -46,6 +46,15 @@ const projects = [
         github: "https://github.com/anhnguyenvv/meeting-transcriber",
         stars: 2,
         forks: 0
+    },
+    {
+        title: "Picture Manager",
+        desc: "Desktop application for image management and organizing (Picture Pocket).",
+        tech: ["Java", "GUI", "OOP Design"],
+        category: "other",
+        github: "https://github.com/anhnguyenvv/Picturemanager",
+        stars: 1,
+        forks: 0
     }
 ];
 
