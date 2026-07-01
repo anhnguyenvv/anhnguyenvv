@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Thị Lan Anh | AI Engineer CV</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --primary: #0f172a;       /* Slate 900 */
+            --primary-light: #334155; /* Slate 700 */
+            --accent: #059669;        /* Emerald 600 */
+            --accent-bg: #ecfdf5;     /* Emerald 50 */
+            --text-main: #1e293b;     /* Slate 800 */
+            --text-muted: #64748b;    /* Slate 500 */
+            --bg-light: #f8fafc;      /* Slate 50 */
+            --border: #e2e8f0;        /* Slate 200 */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-light);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Container & Layout */
+        .cv-container {
+            max-width: 850px;
+            margin: 40px auto;
+            background: #ffffff;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+        }
+
+        /* Utility classes */
+        h1, h2, h3, h4 {
+            font-family: 'Outfit', sans-serif;
+            color: var(--primary);
+        }
+
+        .icon-text {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Left Column (Sidebar) */
+        .cv-sidebar {
+            background-color: #0f172a; /* Dark Navy background */
+            color: #f8fafc;
+            padding: 35px 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .cv-sidebar h2, .cv-sidebar h3 {
+            color: #ffffff;
+        }
+
+        .sidebar-header {
+            text-align: center;
+            border-bottom: 1px solid #1e293b;
+            padding-bottom: 25px;
+        }
+
+        .avatar-placeholder {
+            width: 90px;
+            height: 90px;
+            border-radius: 50px;
+            background: linear-gradient(135deg, var(--accent), #10b981);
+            margin: 0 auto 15px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: white;
+            font-family: 'Outfit', sans-serif;
+            border: 3px solid #1e293b;
+        }
+
+        .name-title h1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.5px;
+            margin-bottom: 4px;
+        }
+
+        .name-title p {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .sidebar-section-title {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-bottom: 12px;
+            border-bottom: 1px solid #1e293b;
+            padding-bottom: 6px;
+        }
+
+        .contact-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            font-size: 13px;
+        }
+
+        .contact-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .contact-list li i {
+            color: var(--accent);
+            flex-shrink: 0;
+            margin-top: 3px;
+        }
+
+        .contact-list a {
+            color: #e2e8f0;
+            text-decoration: none;
+            word-break: break-all;
+            transition: color 0.2s;
+        }
+
+        .contact-list a:hover {
+            color: var(--accent);
+        }
+
+        .skills-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .skill-cat-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #cbd5e1;
+            margin-bottom: 6px;
+        }
+
+        .tags-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag-sidebar {
+            background-color: #1e293b;
+            color: #e2e8f0;
+            font-size: 11px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            border-left: 2px solid var(--accent);
+        }
+
+        .edu-item {
+            margin-bottom: 15px;
+        }
+
+        .edu-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .edu-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .edu-meta {
+            font-size: 12px;
+            color: #94a3b8;
+            margin: 2px 0;
+        }
+
+        .edu-gpa {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--accent);
+        }
+
+        /* Right Column (Main Content) */
+        .cv-main {
+            padding: 40px 35px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .main-section-title {
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--primary);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 6px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .main-section-title i {
+            color: var(--accent);
+        }
+
+        .summary-text {
+            font-size: 14px;
+            color: var(--text-main);
+            text-align: justify;
+        }
+
+        /* Timeline Items (Experience & Projects) */
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 20px;
+            border-left: 2px solid var(--border);
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 6px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: var(--accent);
+            border: 2px solid #ffffff;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 6px;
+        }
+
+        .item-title-group h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .item-company {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .item-date {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-muted);
+            background-color: var(--bg-light);
+            padding: 2px 8px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            white-space: nowrap;
+        }
+
+        .item-desc {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            font-style: italic;
+        }
+
+        .item-bullets {
+            list-style-position: outside;
+            margin-left: 15px;
+            font-size: 13px;
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .item-bullets li strong {
+            color: var(--primary);
+        }
+
+        .tech-tags {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag-main {
+            background-color: var(--bg-light);
+            color: var(--primary-light);
+            font-size: 11px;
+            font-weight: 500;
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+
+        /* Action bar for Web mode */
+        .web-actions {
+            max-width: 850px;
+            margin: 20px auto 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+        }
+
+        .back-link {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .btn-print {
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-family: 'Outfit', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.2s;
+        }
+
+        .btn-print:hover {
+            background-color: #047857;
+        }
+
+        /* PRINT STYLESHEET */
+        @media print {
+            body {
+                background-color: #ffffff;
+                color: #000000;
+                font-size: 12px;
+            }
+
+            .web-actions {
+                display: none; /* Hide action bar in print mode */
+            }
+
+            .cv-container {
+                max-width: 100%;
+                margin: 0;
+                box-shadow: none;
+                border-radius: 0;
+                display: grid;
+                grid-template-columns: 240px 1fr; /* Slightly narrower sidebar for print */
+                height: 100%;
+            }
+
+            .cv-sidebar {
+                background-color: #0f172a !important; /* Ensure bg prints */
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                padding: 25px 15px;
+            }
+
+            .cv-main {
+                padding: 25px 25px;
+            }
+
+            .tag-sidebar {
+                background-color: #1e293b !important;
+                color: #ffffff !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .item-date {
+                background-color: #ffffff !important;
+                border: 1px solid #94a3b8 !important;
+            }
+
+            /* Prevent sections breaking across pages */
+            .timeline-item, .cv-main section {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            @page {
+                size: A4 portrait;
+                margin: 10mm 10mm 10mm 10mm;
+            }
+        }
+
+        /* Responsive Mobile Layout */
+        @media (max-width: 768px) {
+            .cv-container {
+                grid-template-columns: 1fr;
+                margin: 10px;
+            }
+            .cv-sidebar {
+                padding: 30px 20px;
+            }
+            .cv-main {
+                padding: 30px 20px;
+            }
+            .web-actions {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Web-only Top Action Bar -->
+    <div class="web-actions">
+        <a href="index.html" class="back-link">
+            <i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Quay lại Portfolio
+        </a>
+        <button onclick="window.print()" class="btn-print">
+            <i data-lucide="printer" style="width:16px;height:16px;"></i> In CV / Lưu thành PDF
+        </button>
+    </div>
+
+    <!-- CV Main Document -->
+    <div class="cv-container">
+        
+        <!-- SIDEBAR (Cột trái) -->
+        <aside class="cv-sidebar">
+            <div class="sidebar-header">
+                <div class="avatar-placeholder">LA</div>
+                <div class="name-title">
+                    <h1>LAN ANH NGUYỄN</h1>
+                    <p>AI Engineer</p>
+                </div>
+            </div>
+
+            <!-- LIÊN HỆ -->
+            <section class="sidebar-section">
+                <h3 class="sidebar-section-title">Liên hệ</h3>
+                <ul class="contact-list">
+                    <li>
+                        <i data-lucide="mail" style="width:14px;height:14px;"></i>
+                        <a href="mailto:anhnguyenvv0605@gmail.com">anhnguyenvv0605@gmail.com</a>
+                    </li>
+                    <li>
+                        <i data-lucide="github" style="width:14px;height:14px;"></i>
+                        <a href="https://github.com/anhnguyenvv" target="_blank">github.com/anhnguyenvv</a>
+                    </li>
+                    <li>
+                        <i data-lucide="map-pin" style="width:14px;height:14px;"></i>
+                        <span>Thạnh Mỹ Lợi, Q.2, TP. HCM</span>
+                    </li>
+                    <li>
+                        <i data-lucide="globe" style="width:14px;height:14px;"></i>
+                        <a href="https://anhnguyenvv.github.io" target="_blank">anhnguyenvv.github.io</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- HỌC VẤN -->
+            <section class="sidebar-section">
+                <h3 class="sidebar-section-title">Học vấn</h3>
+                <div class="edu-item">
+                    <p class="edu-title">ĐH Khoa học Tự nhiên - ĐHQG TP.HCM (HCMUS)</p>
+                    <p class="edu-meta">Cử nhân Khoa học Máy tính</p>
+                    <p class="edu-meta">2021 - 2025</p>
+                    <span class="edu-gpa">GPA: 3.38 / 4.0</span>
+                </div>
+            </section>
+
+            <!-- KỸ NĂNG -->
+            <section class="sidebar-section">
+                <h3 class="sidebar-section-title">Kỹ năng AI & NLP</h3>
+                
+                <div class="skills-group" style="margin-top: 10px;">
+                    <div>
+                        <p class="skill-cat-title">AI Agents & LLMs</p>
+                        <div class="tags-wrapper">
+                            <span class="tag-sidebar">LangGraph</span>
+                            <span class="tag-sidebar">LangChain</span>
+                            <span class="tag-sidebar">GraphRAG</span>
+                            <span class="tag-sidebar">MCP Gateway</span>
+                            <span class="tag-sidebar">Ragas Evaluation</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <p class="skill-cat-title">NLP & Audio (Speech)</p>
+                        <div class="tags-wrapper">
+                            <span class="tag-sidebar">PhoBERT / ViT5</span>
+                            <span class="tag-sidebar">Piper TTS (VITS)</span>
+                            <span class="tag-sidebar">G2P Tiếng Việt</span>
+                            <span class="tag-sidebar">Audio Preprocessing</span>
+                            <span class="tag-sidebar">PyTorch</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="skill-cat-title">Data & Databases</p>
+                        <div class="tags-wrapper">
+                            <span class="tag-sidebar">Neo4j (GraphDB)</span>
+                            <span class="tag-sidebar">Qdrant (VectorDB)</span>
+                            <span class="tag-sidebar">BigQuery</span>
+                            <span class="tag-sidebar">Odoo ERP API</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="skill-cat-title">DevOps & System</p>
+                        <div class="tags-wrapper">
+                            <span class="tag-sidebar">FastAPI / Flask</span>
+                            <span class="tag-sidebar">Docker / Compose</span>
+                            <span class="tag-sidebar">CI/CD (GitHub Actions)</span>
+                            <span class="tag-sidebar">Prometheus & Grafana</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- NGOẠI NGỮ -->
+            <section class="sidebar-section">
+                <h3 class="sidebar-section-title">Ngoại ngữ</h3>
+                <ul class="contact-list">
+                    <li>
+                        <i data-lucide="languages" style="width:14px;height:14px;"></i>
+                        <span>Tiếng Anh: Đọc hiểu & Giao tiếp công việc tốt</span>
+                    </li>
+                    <li>
+                        <i data-lucide="languages" style="width:14px;height:14px;"></i>
+                        <span>Tiếng Nhật: Sơ cấp (N5)</span>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- MAIN CONTENT (Cột phải) -->
+        <main class="cv-main">
+            
+            <!-- GIỚI THIỆU / MỤC TIÊU -->
+            <section>
+                <h2 class="main-section-title">
+                    <i data-lucide="user" style="width:18px;height:18px;"></i> Tóm tắt mục tiêu
+                </h2>
+                <p class="summary-text">
+                    Kỹ sư Khoa học Máy tính tốt nghiệp từ <strong>HCMUS</strong> với đam mê nghiên cứu sâu sắc trong mảng NLP/LLM và AI Agent. Có kinh nghiệm thực chiến phát triển các giải pháp <strong>Multi-Agent</strong>, <strong>GraphRAG</strong>, cổng kết nối dữ liệu doanh nghiệp và huấn luyện mô hình <strong>Text-to-Speech</strong> tiếng Việt. Mong muốn đảm nhận vai trò AI Engineer (NLP/LLM) để tiếp tục nghiên cứu và đưa các công nghệ AI tiên tiến nhất vào vận hành thực tế hiệu quả.
+                </p>
+            </section>
+
+            <!-- KINH NGHIỆM LÀM VIỆC -->
+            <section>
+                <h2 class="main-section-title">
+                    <i data-lucide="briefcase" style="width:18px;height:18px;"></i> Kinh nghiệm làm việc
+                </h2>
+                <div class="timeline">
+                    <!-- Newtech -->
+                    <div class="timeline-item">
+                        <div class="item-header">
+                            <div class="item-title-group">
+                                <h3>AI Agent Developer</h3>
+                                <span class="item-company">Newtech Shop</span>
+                            </div>
+                            <span class="item-date">01/2026 – Hiện tại</span>
+                        </div>
+                        <p class="item-desc">Nghiên cứu và phát triển kiến trúc Multi-Agent phục vụ tích hợp dữ liệu và tự động hóa vận hành doanh nghiệp.</p>
+                        <ul class="item-bullets">
+                            <li><strong>Hệ thống GraphRAG nội bộ:</strong> Xây dựng Chatbot Q&A tài liệu dựa trên GraphRAG, kết hợp <strong>LangGraph</strong>, <strong>Neo4j</strong> và <strong>Qdrant</strong> để tìm kiếm ngữ nghĩa chính xác hơn 35% so với RAG truyền thống.</li>
+                            <li><strong>Gateway kết nối dữ liệu:</strong> Phát triển các <strong>MCP (Model Context Protocol) Servers</strong> kết nối trực tiếp đến dữ liệu ERP (<strong>Odoo</strong>) và Data Warehouse (<strong>BigQuery</strong>), giúp các LLMs truy vấn dữ liệu thời gian thực an toàn.</li>
+                            <li><strong>Phân tích ý định & Vận hành:</strong> Thiết kế Router Agent phân tích intent của user để định tuyến tác vụ chuẩn xác. Lập trình Facebook Ads Agent tự động tối ưu hóa chiến dịch hàng ngày.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag-main">Python</span>
+                            <span class="tag-main">LangGraph</span>
+                            <span class="tag-main">Neo4j</span>
+                            <span class="tag-main">Qdrant</span>
+                            <span class="tag-main">MCP Gateway</span>
+                            <span class="tag-main">FastAPI</span>
+                            <span class="tag-main">Odoo</span>
+                            <span class="tag-main">BigQuery</span>
+                            <span class="tag-main">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- DỰ ÁN NỔI BẬT -->
+            <section>
+                <h2 class="main-section-title">
+                    <i data-lucide="code-2" style="width:18px;height:18px;"></i> Dự án nổi bật
+                </h2>
+                <div class="timeline">
+                    <!-- Dự án FIT RAG -->
+                    <div class="timeline-item">
+                        <div class="item-header">
+                            <div class="item-title-group">
+                                <h3>FIT-HCMUS Advising Chatbot (Đồ án tốt nghiệp)</h3>
+                                <span class="item-company">Trường ĐH Khoa học Tự nhiên</span>
+                            </div>
+                            <span class="item-date">07/2025 – 12/2025</span>
+                        </div>
+                        <p class="item-desc">Chatbot tư vấn học vụ tự động kết hợp cả hai cơ chế Classic RAG và Agentic RAG.</p>
+                        <ul class="item-bullets">
+                            <li><strong>Kiến trúc Hybrid RAG:</strong> Tích hợp luồng Classic (BM25 + Cross-Encoder reranking) kết hợp Agent ReAct quản lý hội thoại động, giúp giải quyết cả các câu hỏi luật học vụ phức tạp lẫn các câu hỏi tìm kiếm tài liệu thông thường.</li>
+                            <li><strong>Data Pipeline:</strong> Xây dựng bộ crawl dữ liệu trang web trường, trích xuất dữ liệu từ các file PDF scan bằng <strong>LLM-OCR</strong>, thực hiện chuẩn hóa văn bản và lưu trữ vector tại <strong>Qdrant</strong>.</li>
+                            <li><strong>Đánh giá & Quan sát:</strong> Sử dụng benchmark <strong>Ragas</strong> để đo lường độ chính xác (đạt 92% Recall, 90% Faithfulness). Setup monitor realtime qua <strong>Prometheus & Grafana</strong> và chạy 78 ca kiểm thử tự động với Pytest.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag-main">LangChain</span>
+                            <span class="tag-main">Qdrant</span>
+                            <span class="tag-main">FastAPI</span>
+                            <span class="tag-main">Ragas</span>
+                            <span class="tag-main">Prometheus</span>
+                            <span class="tag-main">Grafana</span>
+                            <span class="tag-main">MongoDB</span>
+                            <span class="tag-main">Pytest</span>
+                        </div>
+                    </div>
+
+                    <!-- Dự án Vietnamese Voice & Text Platform -->
+                    <div class="timeline-item">
+                        <div class="item-header">
+                            <div class="item-title-group">
+                                <h3>Vietnamese Text Processing & Voice Synthesis Platform</h3>
+                                <span class="item-company">Dự án Nghiên cứu cá nhân</span>
+                            </div>
+                            <span class="item-date">01/2025 – 07/2025</span>
+                        </div>
+                        <p class="item-desc">Nền tảng web xử lý ngữ nghĩa tiếng Việt và chuyển đổi văn bản thành giọng nói tiếng Việt tự nhiên.</p>
+                        <ul class="item-bullets">
+                            <li><strong>Huấn luyện TTS Tiếng Việt:</strong> Huấn luyện mô hình sinh giọng nói <strong>Piper TTS (VITS-based)</strong> trên bộ dữ liệu tiếng Việt sạch. Xây dựng module G2P (Grapheme-to-Phoneme) tiếng Việt tối ưu cho việc xử lý các thanh điệu tiếng Việt.</li>
+                            <li><strong>Fine-tune mô hình NLP:</strong> Fine-tune các mô hình Transformer như <strong>PhoBERT</strong> và <strong>ViSoBERT</strong> để phân tích cảm xúc, phân loại ý kiến và trích xuất thực thể tên riêng trên dữ liệu chữ viết tiếng Việt.</li>
+                            <li><strong>Tiền xử lý & Deploy:</strong> Thiết kế pipeline lọc tạp âm, chuẩn hóa âm lượng. Đóng gói mô hình dưới dạng dịch vụ API với Flask chạy container hóa qua Docker Compose.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag-main">PyTorch</span>
+                            <span class="tag-main">Transformers</span>
+                            <span class="tag-main">PhoBERT</span>
+                            <span class="tag-main">Piper TTS</span>
+                            <span class="tag-main">Docker Compose</span>
+                            <span class="tag-main">Flask</span>
+                        </div>
+                    </div>
+
+                    <!-- Dự án Meeting Transcriber -->
+                    <div class="timeline-item">
+                        <div class="item-header">
+                            <div class="item-title-group">
+                                <h3>Meeting Transcriber System</h3>
+                                <span class="item-company">Dự án Cá nhân</span>
+                            </div>
+                            <span class="item-date">03/2026 – Hiện tại</span>
+                        </div>
+                        <p class="item-desc">Hệ thống xử lý âm thanh, bóc băng (transcribe) và tóm tắt cuộc họp offline theo thời gian thực.</p>
+                        <ul class="item-bullets">
+                            <li><strong>Speech-to-Text & Diarization:</strong> Sử dụng <strong>Faster-Whisper</strong> để nhận diện giọng nói và <strong>Pyannote Audio</strong> để phân tách người nói.</li>
+                            <li><strong>LLM Summarization:</strong> Áp dụng <strong>Qwen2.5</strong> (via Ollama) để chuẩn hóa văn bản, dịch thuật và sinh biên bản tóm tắt tự động.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag-main">Faster-Whisper</span>
+                            <span class="tag-main">Pyannote Audio</span>
+                            <span class="tag-main">Ollama</span>
+                            <span class="tag-main">Gradio</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // Create icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>

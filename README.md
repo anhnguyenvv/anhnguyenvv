@@ -54,7 +54,7 @@
 
 | ♟️ [Chess Game OOP](https://github.com/anhnguyenvv/ChessGame) | 🖼️ [Picture Manager](https://github.com/anhnguyenvv/Picturemanager) |
 | :--- | :--- |
-| **Desktop interactive chess game with local multiplayer.**<br/>*C++, GUI, OOP Design, Game Logic* | **Desktop application for image management.**<br/>*Java, OOP, GUI* |
+| **Desktop interactive chess game with local multiplayer.**<br/>*C++, GUI, OOP Design, Game Logic* | **Mobile application for image management.**<br/>*Java, OOP, Android* |
 
 ---
 

@@ -49,8 +49,8 @@ const projects = [
     },
     {
         title: "Picture Manager",
-        desc: "Desktop application for image management and organizing (Picture Pocket).",
-        tech: ["Java", "GUI", "OOP Design"],
+        desc: "Mobile application for image management and organizing (Picture Pocket).",
+        tech: ["Java", "Android", "OOP Design"],
         category: "other",
         github: "https://github.com/anhnguyenvv/Picturemanager",
         stars: 1,
