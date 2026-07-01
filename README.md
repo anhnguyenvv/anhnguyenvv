@@ -25,33 +25,10 @@
 
 ## 🚀 About Me
 
-```python
-class LanAnhNguyen:
-
-    role = "AI Engineer"
-
-    education = "B.CS @ VNUHCM - University of Science (HCMUS)"
-    gpa = "3.38 / 4.0"
-
-    interests = [
-        "Multi-Agent Workflows (LangGraph)",
-        "Enterprise GraphRAG (Neo4j)",
-        "Model Context Protocol (MCP) Gateway",
-        "LLM Observability & Monitoring",
-        "Vietnamese-language NLP",
-        "Speech AI (TTS, STT, Diarization)"
-    ]
-
-    currently_operating = {
-        "AI Gateway": "Routing 20+ LLMs (GPT-5, Claude) in enterprise",
-        "MCP Servers": "Unifying Odoo ERP, BigQuery, and VoIP communications"
-    }
-
-    languages = {
-        "English": "Working proficiency",
-        "Japanese": "JLPT N5"
-    }
-```
+- 🎓 **Education:** B.CS @ VNUHCM - University of Science (HCMUS) | GPA: 3.38 / 4.0
+- 🎯 **Focus Areas:** Multi-Agent Workflows, Enterprise GraphRAG, MCP Gateway, LLM Observability, Vietnamese NLP, and Speech AI (TTS, STT, Diarization).
+- 💻 **Currently Building:** Enterprise AI Gateways routing 20+ LLMs and unified MCP servers (Odoo, BigQuery).
+- 🌐 **Languages:** English (Working proficiency), Japanese (JLPT N5).
 
 ---
 
