@@ -44,32 +44,17 @@
 
 ## 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/anhnguyenvv/meeting-transcriber">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=meeting-transcriber&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/anhnguyenvv/NewTech-Graphrag">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=NewTech-Graphrag&theme=tokyonight" />
-  </a>
-</p>
+| 🎙️ [Meeting Transcriber System](https://github.com/anhnguyenvv/meeting-transcriber) | 🤖 [NewTech GraphRAG System](https://github.com/anhnguyenvv/NewTech-Graphrag) |
+| :--- | :--- |
+| **Offline meeting transcription & speaker diarization.**<br/>*Faster-Whisper, Pyannote Audio, Ollama, Gradio* | **Multi-agent GraphRAG chatbot for ERP document QA.**<br/>*LangGraph, Neo4j, Qdrant, MCP, BigQuery* |
 
-<p align="center">
-  <a href="https://github.com/anhnguyenvv/ccall-mcp">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=ccall-mcp&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/anhnguyenvv/ads-analyze">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=ads-analyze&theme=tokyonight" />
-  </a>
-</p>
+| 🔌 [Enterprise MCP Servers](https://github.com/anhnguyenvv/ccall-mcp) | 📈 [NewTech Ads Analyzer](https://github.com/anhnguyenvv/ads-analyze) |
+| :--- | :--- |
+| **MCP servers linking LLMs to VoIP & Accounting ERPs.**<br/>*Python, FastAPI, MCP, Odoo, REST APIs* | **Automated Facebook Ads marketing agent.**<br/>*Python, FastAPI, Facebook Ads API, BigQuery* |
 
-<p align="center">
-  <a href="https://github.com/anhnguyenvv/RAG_Chatbot">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=RAG_Chatbot&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/anhnguyenvv/vietnamese-text-analyzer">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=vietnamese-text-analyzer&theme=tokyonight" />
-  </a>
-</p>
+| 🎓 [FIT-Advising RAG Chatbot](https://github.com/anhnguyenvv/RAG_Chatbot) | 📝 [VN Text Processing Platform](https://github.com/anhnguyenvv/vietnamese-text-analyzer) |
+| :--- | :--- |
+| **Hybrid (Classic + ReAct) advising chatbot.**<br/>*LangChain, Qdrant, React, Prometheus* | **Modular NLP platform with Piper TTS engine.**<br/>*PyTorch, PhoBERT, Piper TTS, Flask, React* |
 
 ---
 
