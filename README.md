@@ -38,7 +38,8 @@ class LanAnhNguyen:
         "Enterprise GraphRAG (Neo4j)",
         "Model Context Protocol (MCP) Gateway",
         "LLM Observability & Monitoring",
-        "Vietnamese-language NLP"
+        "Vietnamese-language NLP",
+        "Speech AI (TTS, STT, Diarization)"
     ]
 
     currently_operating = {
@@ -65,6 +66,10 @@ class LanAnhNguyen:
 - **MCP Infrastructure:** Managed an internal AI gateway routing 20+ LLMs and operated 4+ MCP servers to unify enterprise data access across Odoo, BigQuery, and OmniChat.
 
 ## 🚀 Featured Projects
+
+### **Meeting Transcriber System** | [GitHub](https://github.com/anhnguyenvv/meeting-transcriber)
+Offline, real-time meeting transcription and audio processing system featuring accurate speaker diarization and multilingual translation.
+*   *Tech stack:* Python, Faster-Whisper, Pyannote Audio, Ollama, Gradio.
 
 ### **NewTech GraphRAG System** | [GitHub](https://github.com/anhnguyenvv/NewTech-Graphrag)
 Multi-agent GraphRAG chatbot for internal document QA, leveraging LangGraph, Qdrant, Neo4j, and MCP to query Odoo ERP and BigQuery data.
@@ -102,7 +107,7 @@ High-performance GPU-accelerated Artificial Neural Network (ANN) trained on Fash
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 *   **Frameworks:** LangGraph, LangChain, MCP (Model Context Protocol), PyTorch, Ragas Evaluation, Prompt Engineering, LLM Observability.
-*   **NLP & CV:** Transformer fine-tuning, embeddings, reranking, PhoBERT, OCR, OpenCV, CUDA programming.
+*   **NLP, Speech & Audio:** Transformer fine-tuning, embeddings, reranking, PhoBERT, Text-to-Speech (Piper, VITS), Speech-to-Text (Faster-Whisper), Speaker Diarization (Pyannote Audio), OCR, OpenCV.
 
 ### Data & Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
