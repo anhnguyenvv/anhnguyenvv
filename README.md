@@ -44,33 +44,32 @@
 
 ## 🚀 Featured Projects
 
-### **Meeting Transcriber System** | [GitHub](https://github.com/anhnguyenvv/meeting-transcriber)
-Offline, real-time meeting transcription and audio processing system featuring accurate speaker diarization and multilingual translation.
-*   *Tech stack:* Python, Faster-Whisper, Pyannote Audio, Ollama, Gradio.
+<p align="center">
+  <a href="https://github.com/anhnguyenvv/meeting-transcriber">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=meeting-transcriber&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/anhnguyenvv/NewTech-Graphrag">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=NewTech-Graphrag&theme=tokyonight" />
+  </a>
+</p>
 
-### **NewTech GraphRAG System** | [GitHub](https://github.com/anhnguyenvv/NewTech-Graphrag)
-Multi-agent GraphRAG chatbot for internal document QA, leveraging LangGraph, Qdrant, Neo4j, and MCP to query Odoo ERP and BigQuery data.
-*   *Tech stack:* Python, LangGraph, Neo4j, Qdrant, MCP, FastAPI, BigQuery, Docker Compose, Nginx.
+<p align="center">
+  <a href="https://github.com/anhnguyenvv/ccall-mcp">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=ccall-mcp&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/anhnguyenvv/ads-analyze">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=ads-analyze&theme=tokyonight" />
+  </a>
+</p>
 
-### **Enterprise MCP Servers Suite** | [GitHub](https://github.com/anhnguyenvv/ccall-mcp)
-Model Context Protocol (MCP) servers linking LLMs to VoIP communications (CCall), Accounting ERPs, and GDT invoices.
-*   *Tech stack:* Python, FastAPI, MCP, Odoo, Docker, REST APIs.
-
-### **NewTech Ads Analyzer** | [GitHub](https://github.com/anhnguyenvv/ads-analyze)
-Automated Facebook Ads marketing agent featuring real-time campaign analytics, ROI tracking, and budget safety alerts.
-*   *Tech stack:* Python, FastAPI, Facebook Ads API, BigQuery, Docker, Nginx.
-
-### **FIT-Advising RAG Chatbot** | [GitHub](https://github.com/anhnguyenvv/RAG_Chatbot)
-Academic advising chatbot with hybrid (Classic + Agentic ReAct) pipelines, achieving 92% recall on Ragas benchmark.
-*   *Tech stack:* Python, LangChain, Qdrant, FastAPI, React + Vite, MongoDB, Docker, Prometheus + Grafana.
-
-### **Vietnamese Text Processing Platform** | [GitHub](https://github.com/anhnguyenvv/vietnamese-text-analyzer)
-Modular NLP platform for summarization, NER, and POS tagging. Features a fine-tuned PhoBERT and a Piper TTS engine.
-*   *Tech stack:* PyTorch, Transformers, PhoBERT, Piper TTS, Flask, React.js, Docker.
-
-### **CUDA Parallel Programming Fashion-MNIST** | [GitHub](https://github.com/anhnguyenvv/Parallel_Programming_final)
-High-performance GPU-accelerated Artificial Neural Network (ANN) trained on Fashion-MNIST using CUDA C/C++.
-*   *Tech stack:* CUDA C/C++, GPU Kernels, Machine Learning.
+<p align="center">
+  <a href="https://github.com/anhnguyenvv/RAG_Chatbot">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=RAG_Chatbot&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/anhnguyenvv/vietnamese-text-analyzer">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anhnguyenvv&repo=vietnamese-text-analyzer&theme=tokyonight" />
+  </a>
+</p>
 
 ---
 
