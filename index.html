@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lan Anh Nguyen | AI Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Nguyen Thi Lan Anh (anhnguyenvv) - AI Agent Developer specializing in GraphRAG, Multi-agent workflows, and MCP Infrastructure.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="glow-bg"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-accent">&lt;</span>LAN ANH<span class="logo-accent"> /&gt;</span>
+            </a>
+            <button class="mobile-nav-toggle" aria-label="Toggle Navigation" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <!-- <a href="cv.html" target="_blank" class="nav-link"><i data-lucide="file-text" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-right: 4px;"></i> CV</a> -->
+                <a href="#ai-assistant" class="nav-link nav-btn-highlight"><i data-lucide="bot" class="btn-icon"></i> AI Chatbot</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-glow">
+                        <span class="pulse-dot"></span>
+                        Available for New Opportunities
+                    </div>
+                    <h1 class="hero-title">Hi, I'm <span class="highlight-text">Lan Anh Nguyen</span></h1>
+                    <h2 class="hero-subtitle">AI Engineer | LLM Applications | Agentic AI | Multi-Agent Systems</h2>
+                    <p class="hero-description">
+                        Computer Science graduate from **HCMUS** specializing in end-to-end AI systems. Experienced in building **GraphRAG pipelines** and **Multi-agent workflows** at **Newtech Shop** utilizing **MCP** to unify enterprise data.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#ai-assistant" class="btn btn-primary">
+                            <i data-lucide="message-square" class="btn-icon"></i> Chat with my AI
+                        </a>
+                        <!-- <a href="cv.html" target="_blank" class="btn btn-secondary">
+                            <i data-lucide="file-text" class="btn-icon"></i> Xem CV
+                        </a> -->
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/anhnguyenvv" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="mailto:anhnguyenvv0605@gmail.com" class="social-icon" aria-label="Email">
+                            <i data-lucide="mail"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="cyber-card">
+                        <div class="card-header-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">lananh@hcmus:~</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p class="term-line"><span class="term-prompt">$</span> cat profile.json</p>
+                            <pre class="term-output">
+{
+  "name": "Nguyen Thi Lan Anh",
+  "education": "B.CS at HCMUS (GPA: 3.38/4.0)",
+  "focus": "Multi-agent systems & GraphRAG",
+  "specialties": [
+    "Model Context Protocol (MCP)",
+    "LLM Observability & Evaluation",
+    "Vietnamese NLP",
+    "CUDA & Parallel Computing"
+  ],
+  "languages": ["English (Working)", "Japanese (N5)"]
+}</pre>
+                            <p class="term-line"><span class="term-prompt">$</span> <span class="cursor">_</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Stats Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Passionate about building robust agentic infrastructure and LLM observability</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-info">
+                        <p class="about-text">
+                            I am a Computer Science graduate from **HCMUS** (GPA: 3.38/4.0), specializing in end-to-end AI systems, multi-agent workflows, and GraphRAG pipelines.
+                        </p>
+                        <p class="about-text">
+                            Currently working at **Newtech Shop**, I build agentic infrastructure leveraging the **Model Context Protocol (MCP)** to unify data from **Odoo ERP** and **BigQuery** with LLMs, and focus on LLM observability (Ragas evaluation, Prometheus + Grafana).
+                        </p>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon-wrapper cyan">
+                                <i data-lucide="network"></i>
+                            </div>
+                            <h3 class="stat-number">GraphRAG</h3>
+                            <p class="stat-label">Knowledge Graphs & Vector Search</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon-wrapper indigo">
+                                <i data-lucide="cpu"></i>
+                            </div>
+                            <h3 class="stat-number">Agents</h3>
+                            <p class="stat-label">Multi-Agent Orchestration</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon-wrapper emerald">
+                                <i data-lucide="database"></i>
+                            </div>
+                            <h3 class="stat-number">MCP</h3>
+                            <p class="stat-label">Model Context Protocol Gateway</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon-wrapper amber">
+                                <i data-lucide="activity"></i>
+                            </div>
+                            <h3 class="stat-number">Observability</h3>
+                            <p class="stat-label">Ragas Evaluation & Monitoring</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">My professional timeline and key achievements</p>
+                </div>
+                <div class="timeline">
+                    <!-- NewTech Experience -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jan 2026 – Present</div>
+                        <div class="timeline-content glass-card">
+                            <div class="exp-header">
+                                <h3 class="exp-title">AI Agent Developer</h3>
+                                <h4 class="exp-company">Newtech Shop</h4>
+                            </div>
+                            <p class="exp-desc">
+                                Engineered advanced multi-agent systems and unified AI gateways to automate business analytics and internal document operations.
+                            </p>
+                            <ul class="exp-bullets">
+                                <li>
+                                    <strong>GraphRAG System:</strong> Developed a multi-agent GraphRAG chatbot for internal document QA, leveraging **LangGraph**, **Neo4j**, **Qdrant**, and **MCP** to integrate structured data from **Odoo ERP** and **BigQuery**.
+                                </li>
+                                <li>
+                                    <strong>Marketing Automation:</strong> Engineered an automated Facebook Ads agent processing 10+ active campaigns daily.
+                                </li>
+                                <li>
+                                    <strong>MCP Infrastructure:</strong> Managed an internal AI gateway routing 20+ LLMs (GPT-5, Claude) and operated 4+ MCP servers to unify data access across Odoo, BigQuery, and OmniChat.
+                                </li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">LangGraph</span>
+                                <span class="tag">Neo4j</span>
+                                <span class="tag">MCP</span>
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">Next.js 14</span>
+                                <span class="tag">MySQL 8.0</span>
+                                <span class="tag">BigQuery</span>
+                                <span class="tag">OmniChat</span>
+                                <span class="tag">Docker Compose</span>
+                                <span class="tag">Nginx</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FIT-HCMUS RAG Project -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jul 2025 – Dec 2025</div>
+                        <div class="timeline-content glass-card">
+                            <div class="exp-header">
+                                <h3 class="exp-title">AI Engineer (Academic Project)</h3>
+                                <h4 class="exp-company">RAG Chatbot for FIT-HCMUS Academic Advising</h4>
+                            </div>
+                            <p class="exp-desc">
+                                Built an end-to-end advising system with advanced search pipelines and comprehensive evaluation frameworks.
+                            </p>
+                            <ul class="exp-bullets">
+                                <li>
+                                    Engineered hybrid RAG chatbot offering both **Classic** (retrieve → rerank → generate) and **Agentic** (ReAct) pipelines, achieving **92% context recall**, **90% faithfulness**, and **71% factual correctness** on the **Ragas** benchmark.
+                                </li>
+                                <li>
+                                    Built end-to-end data pipeline covering FIT-website PDF crawling, **LLM-based OCR**, structure-aware chunking, embedding generation, and vector indexing in **Qdrant**.
+                                </li>
+                                <li>
+                                    Designed two-stage retrieval (BM25 + cross-encoder reranking) and a ReAct agent with custom search tools and persistent session memory; deployed full-stack with monitoring dashboards (**Prometheus + Grafana**) and 78 pytest test cases.
+                                </li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">LangChain</span>
+                                <span class="tag">Qdrant</span>
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">React.js</span>
+                                <span class="tag">Vite</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Ragas</span>
+                                <span class="tag">Prometheus</span>
+                                <span class="tag">Grafana</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vietnamese Text Project -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jan 2025 – Jul 2025</div>
+                        <div class="timeline-content glass-card">
+                            <div class="exp-header">
+                                <h3 class="exp-title">AI Engineer (Academic Project)</h3>
+                                <h4 class="exp-company">Vietnamese Text Processing & Labeling Platform</h4>
+                            </div>
+                            <p class="exp-desc">
+                                Created a full-suite NLP and TTS platform for Vietnamese text analysis.
+                            </p>
+                            <ul class="exp-bullets">
+                                <li>
+                                    Built web-based Vietnamese NLP platform integrating summarization, named entity recognition, POS tagging, sentiment analysis, classification, and text-to-speech.
+                                </li>
+                                <li>
+                                    Fine-tuned **PhoBERT**, **ViSoBERT**, and **ViT5** models for specific text extraction and classification tasks.
+                                </li>
+                                <li>
+                                    Trained **Piper** (VITS-based) text-to-speech engine on a custom Vietnamese dataset, and built robust preprocessing pipelines for noisy real-world business data.
+                                </li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">PyTorch</span>
+                                <span class="tag">Transformers</span>
+                                <span class="tag">PhoBERT</span>
+                                <span class="tag">Piper TTS</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">React.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <p class="section-subtitle">Technical skill set and toolchains used in development</p>
+                </div>
+                <div class="skills-grid">
+                    <!-- Skill Category 1 -->
+                    <div class="skills-card glass-card">
+                        <div class="skills-card-header">
+                            <i data-lucide="brain-circuit" class="skills-cat-icon"></i>
+                            <h3 class="skills-card-title">AI Agents & LLMs</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Multi-Agent System (LangGraph)</span> <span class="level">Proficient</span></li>
+                            <li><span>GraphRAG & Classic RAG (LangChain)</span> <span class="level">Proficient</span></li>
+                            <li><span>Model Context Protocol (MCP)</span> <span class="level">Expert</span></li>
+                            <li><span>Ragas Evaluation Framework</span> <span class="level">Proficient</span></li>
+                            <li><span>LLM Observability & Monitoring</span> <span class="level">Proficient</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Skill Category 2 -->
+                    <div class="skills-card glass-card">
+                        <div class="skills-card-header">
+                            <i data-lucide="text-cursor-input" class="skills-cat-icon"></i>
+                            <h3 class="skills-card-title">NLP & Computer Vision</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Transformer Fine-tuning</span> <span class="level">Proficient</span></li>
+                            <li><span>PhoBERT / ViSoBERT / ViT5</span> <span class="level">Proficient</span></li>
+                            <li><span>Text-to-Speech (Piper VITS)</span> <span class="level">Proficient</span></li>
+                            <li><span>OCR & OpenCV</span> <span class="level">Intermediate</span></li>
+                            <li><span>CUDA Programming</span> <span class="level">Intermediate</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Skill Category 3 -->
+                    <div class="skills-card glass-card">
+                        <div class="skills-card-header">
+                            <i data-lucide="database" class="skills-cat-icon"></i>
+                            <h3 class="skills-card-title">Databases & Big Data</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Neo4j (GraphDB)</span> <span class="level">Proficient</span></li>
+                            <li><span>Qdrant (VectorDB)</span> <span class="level">Proficient</span></li>
+                            <li><span>PostgreSQL / MySQL / MongoDB</span> <span class="level">Proficient</span></li>
+                            <li><span>Google BigQuery</span> <span class="level">Proficient</span></li>
+                            <li><span>ETL Data Pipelines</span> <span class="level">Proficient</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Skill Category 4 -->
+                    <div class="skills-card glass-card">
+                        <div class="skills-card-header">
+                            <i data-lucide="terminal" class="skills-cat-icon"></i>
+                            <h3 class="skills-card-title">Languages & Backend/DevOps</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Python / SQL / Java</span> <span class="level">Proficient</span></li>
+                            <li><span>FastAPI / Flask / Next.js</span> <span class="level">Proficient</span></li>
+                            <li><span>Google Cloud Platform (GCP)</span> <span class="level">Proficient</span></li>
+                            <li><span>GitHub Actions (CI/CD)</span> <span class="level">Proficient</span></li>
+                            <li><span>Docker & Docker Compose / Nginx</span> <span class="level">Proficient</span></li>
+                            <li><span>Prometheus & Grafana</span> <span class="level">Intermediate</span></li>
+                            <li><span>English (Working) / Japanese (N5)</span> <span class="level">Working</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">A list of my custom-built projects and academic contributions</p>
+                </div>
+
+                <!-- Project Filters & Search -->
+                <div class="projects-controls">
+                    <div class="search-wrapper">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input type="text" id="project-search" placeholder="Search projects (e.g. RAG, NLP, CUDA)..." aria-label="Search projects">
+                    </div>
+                    <div class="filter-tabs" id="project-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="ai-nlp">AI & NLP</button>
+                        <button class="filter-btn" data-filter="hpc">CUDA / Systems</button>
+                        <button class="filter-btn" data-filter="other">Other Apps</button>
+                    </div>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Project cards will be rendered dynamically by app.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Assistant Section -->
+        <section id="ai-assistant" class="ai-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Talk to my AI Assistant</h2>
+                    <p class="section-subtitle">Ask the AI agent about my skills, Newtech Shop experience, or projects</p>
+                </div>
+
+                <div class="ai-chat-container glass-card">
+                    <!-- Chat Window Header -->
+                    <div class="chat-header">
+                        <div class="chat-bot-info">
+                            <div class="bot-avatar">
+                                <i data-lucide="bot"></i>
+                            </div>
+                            <div>
+                                <h3 class="bot-name">Lan Anh's AI Agent</h3>
+                                <p class="bot-status"><span class="status-indicator online"></span>Online (Simulated)</p>
+                            </div>
+                        </div>
+                        <div class="chat-actions">
+                            <button id="clear-chat" title="Clear chat history" class="chat-action-btn"><i data-lucide="trash-2"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Chat Message Area -->
+                    <div class="chat-body" id="chat-messages">
+                        <div class="message bot-message">
+                            <div class="message-content">
+                                Hi there! I'm an AI assistant configured with Lan Anh Nguyen's professional profile. What would you like to know about her GraphRAG work at Newtech, HCMUS academic RAG chatbot, or technical skills?
+                            </div>
+                            <span class="message-time">15:20</span>
+                        </div>
+                    </div>
+
+                    <!-- Quick Suggestions -->
+                    <div class="chat-suggestions">
+                        <button class="suggestion-chip">What was your role at Newtech?</button>
+                        <button class="suggestion-chip">Tell me about the FIT-HCMUS RAG project</button>
+                        <button class="suggestion-chip">What is your experience with GraphRAG?</button>
+                        <button class="suggestion-chip">How can I contact Lan Anh?</button>
+                    </div>
+
+                    <!-- Chat Input Area -->
+                    <form class="chat-input-area" id="chat-form">
+                        <input type="text" id="chat-input" placeholder="Type your question here..." required autocomplete="off" aria-label="Chat input">
+                        <button type="submit" class="chat-send-btn" aria-label="Send message">
+                            <i data-lucide="send"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Drop me a message directly or connect via my professional channels</p>
+                </div>
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info-card glass-card">
+                        <h3 class="contact-info-title">Contact Information</h3>
+                        <p class="contact-info-text">If you are interested in collaboration on AI Agents, GraphRAG, MCP gateways, or hiring opportunities, please feel free to reach out:</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i data-lucide="mail"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:anhnguyenvv0605@gmail.com">anhnguyenvv0605@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Ho Chi Minh City, Vietnam</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i data-lucide="github"></i></div>
+                                <div>
+                                    <h4>GitHub Profile</h4>
+                                    <a href="https://github.com/anhnguyenvv" target="_blank" rel="noopener">github.com/anhnguyenvv</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <form class="contact-form glass-card" id="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email Address</label>
+                            <input type="email" id="contact-email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" name="subject" placeholder="Collaboration / Hiring..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i data-lucide="send" class="btn-icon"></i> Send Message
+                        </button>
+                        <div id="form-feedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Lan Anh Nguyen. All rights reserved.</p>
+            <p class="design-by">Built with pure HTML, CSS, and JS</p>
+        </div>
+    </footer>
+
+    <!-- App JavaScript -->
+    <script src="app.js"></script>
+    <script>
+        // Initialize lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
