@@ -3,33 +3,6 @@
 // ==========================================================================
 const projects = [
     {
-        title: "NewTech GraphRAG System",
-        desc: "Multi-agent GraphRAG chatbot for internal document QA, leveraging LangGraph, Qdrant, Neo4j, and MCP to query Odoo ERP and BigQuery data.",
-        tech: ["Python", "LangGraph", "Neo4j", "Qdrant", "MCP", "FastAPI", "Docker Compose", "Nginx"],
-        category: "ai-nlp",
-        github: "https://github.com/anhnguyenvv/NewTech-Graphrag",
-        stars: 5,
-        forks: 0
-    },
-    {
-        title: "Enterprise MCP Servers Suite",
-        desc: "Model Context Protocol (MCP) servers linking LLMs to VoIP communications (CCall), Accounting ERPs, and GDT invoices.",
-        tech: ["Python", "FastAPI", "MCP", "Odoo", "Docker", "REST APIs"],
-        category: "ai-nlp",
-        github: "https://github.com/anhnguyenvv/ccall-mcp",
-        stars: 4,
-        forks: 0
-    },
-    {
-        title: "NewTech Ads Analyzer",
-        desc: "Automated Facebook Ads marketing agent featuring real-time campaign analytics, ROI tracking, and budget safety alerts.",
-        tech: ["Python", "FastAPI", "Facebook Ads API", "BigQuery", "Docker", "Nginx"],
-        category: "ai-nlp",
-        github: "https://github.com/anhnguyenvv/ads-analyze",
-        stars: 4,
-        forks: 0
-    },
-    {
         title: "RAG Chatbot for FIT-HCMUS Academic Advising",
         desc: "Engineered hybrid RAG chatbot offering Classic and Agentic (ReAct) pipelines, achieving 92% context recall, 90% faithfulness, and 71% factual correctness on the Ragas benchmark.",
         tech: ["Python", "LangChain", "Qdrant", "FastAPI", "React", "MongoDB", "Prometheus", "Grafana"],

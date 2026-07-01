@@ -44,17 +44,17 @@
 
 ## 🚀 Featured Projects
 
-| 🎙️ [Meeting Transcriber System](https://github.com/anhnguyenvv/meeting-transcriber) | 🤖 [NewTech GraphRAG System](https://github.com/anhnguyenvv/NewTech-Graphrag) |
+| 🎙️ [Meeting Transcriber System](https://github.com/anhnguyenvv/meeting-transcriber) | 🎓 [FIT-Advising RAG Chatbot](https://github.com/anhnguyenvv/RAG_Chatbot) |
 | :--- | :--- |
-| **Offline meeting transcription & speaker diarization.**<br/>*Faster-Whisper, Pyannote Audio, Ollama, Gradio* | **Multi-agent GraphRAG chatbot for ERP document QA.**<br/>*LangGraph, Neo4j, Qdrant, MCP, BigQuery* |
+| **Offline meeting transcription & speaker diarization.**<br/>*Faster-Whisper, Pyannote Audio, Ollama, Gradio* | **Hybrid (Classic + ReAct) advising chatbot.**<br/>*LangChain, Qdrant, React, Prometheus* |
 
-| 🔌 [Enterprise MCP Servers](https://github.com/anhnguyenvv/ccall-mcp) | 📈 [NewTech Ads Analyzer](https://github.com/anhnguyenvv/ads-analyze) |
+| 📝 [VN Text Processing Platform](https://github.com/anhnguyenvv/vietnamese-text-analyzer) | ⚡ [CUDA Fashion-MNIST ANN](https://github.com/anhnguyenvv/Parallel_Programming_final) |
 | :--- | :--- |
-| **MCP servers linking LLMs to VoIP & Accounting ERPs.**<br/>*Python, FastAPI, MCP, Odoo, REST APIs* | **Automated Facebook Ads marketing agent.**<br/>*Python, FastAPI, Facebook Ads API, BigQuery* |
+| **Modular NLP platform with Piper TTS engine.**<br/>*PyTorch, PhoBERT, Piper TTS, Flask, React* | **GPU-accelerated Neural Network.**<br/>*CUDA C/C++, GPU Kernels, Machine Learning* |
 
-| 🎓 [FIT-Advising RAG Chatbot](https://github.com/anhnguyenvv/RAG_Chatbot) | 📝 [VN Text Processing Platform](https://github.com/anhnguyenvv/vietnamese-text-analyzer) |
+| ♟️ [Chess Game OOP](https://github.com/anhnguyenvv/ChessGame) | |
 | :--- | :--- |
-| **Hybrid (Classic + ReAct) advising chatbot.**<br/>*LangChain, Qdrant, React, Prometheus* | **Modular NLP platform with Piper TTS engine.**<br/>*PyTorch, PhoBERT, Piper TTS, Flask, React* |
+| **Desktop interactive chess game with local multiplayer.**<br/>*C++, GUI, OOP Design, Game Logic* | |
 
 ---
 
