@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30">
+  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35" alt="Hi Wave" />
   <h1>Hi, I'm Lan Anh Nguyen</h1>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=22&pause=1000&color=06B6D4&center=true&vCenter=true&width=500&lines=AI+Engineer;LLM+Applications;Agentic+AI+%26+Multi-Agent+Systems;GraphRAG+%26+Data+Pipelines" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=22&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=AI+Agent+Developer;Enterprise+GraphRAG;LLM+Applications+%26+Observability;Speech+AI+%26+NLP+Systems" alt="Typing SVG" />
   </a>
 
   <p>
@@ -12,11 +12,11 @@
 
   <p>
     <a href="mailto:anhnguyenvv0605@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+      <img src="https://img.shields.io/badge/Gmail-anhnguyenvv0605%40gmail.com?style=flat-square&logo=gmail&logoColor=06B6D4&labelColor=0f172a&color=1e293b" alt="Gmail">
     </a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://linkedin.com" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect?style=flat-square&logo=linkedin&logoColor=06B6D4&labelColor=0f172a&color=1e293b" alt="LinkedIn">
     </a>
   </p>
 </div>
