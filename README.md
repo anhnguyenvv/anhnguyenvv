@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35" alt="Hi Wave" />
   <h1>Hi, I'm Lan Anh Nguyen</h1>
 
   <a href="https://git.io/typing-svg">
