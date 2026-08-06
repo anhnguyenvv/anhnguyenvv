@@ -1,11 +1,6 @@
 <div align="center">
   <h1>Hi, I'm Lan Anh Nguyen</h1>
 
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=22&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=AI+Agent+Developer;Enterprise+GraphRAG;LLM+Applications+%26+Observability;Speech+AI+%26+NLP+Systems" alt="Typing SVG" />
-  </a>
-
-
 ## 🚀 About Me
 
 - 🎓 **Education:** B.CS @ VNUHCM - University of Science (HCMUS) | GPA: 3.38 / 4.0
