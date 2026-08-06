@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hi, I'm Lan Anh Nguyen</h1>
-
+</div>
 ## 🚀 About Me
 
 - 🎓 **Education:** B.CS @ VNUHCM - University of Science (HCMUS) | GPA: 3.38 / 4.0
