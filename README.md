@@ -5,22 +5,6 @@
     <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=22&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=AI+Agent+Developer;Enterprise+GraphRAG;LLM+Applications+%26+Observability;Speech+AI+%26+NLP+Systems" alt="Typing SVG" />
   </a>
 
-  <p>
-    <i>"Simplicity is the ultimate sophistication." — <b>Leonardo da Vinci</b></i>
-  </p>
-
-  <p>
-    <a href="mailto:anhnguyenvv0605@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-anhnguyenvv0605%40gmail.com?style=flat-square&logo=gmail&logoColor=06B6D4&labelColor=0f172a&color=1e293b" alt="Gmail">
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://linkedin.com" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect?style=flat-square&logo=linkedin&logoColor=06B6D4&labelColor=0f172a&color=1e293b" alt="LinkedIn">
-    </a>
-  </p>
-</div>
-
----
 
 ## 🚀 About Me
 
